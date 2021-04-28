@@ -181,7 +181,6 @@ nav .menu li {
     color: black;
 }
 
-
 .open-web {
     background-color: black;
 }
@@ -236,6 +235,23 @@ nav .menu li {
 .dowload-2 {
     background-color: pink;
     color: white;
+}
+.last-part a {
+    color: white ;
+}
+
+
+img .wave {
+    opacity: 0.2;
+}
+.back-section {
+    background-color: black;
+    opacity: 0.2;
+}
+
+section {
+    opacity: initial;
+    z-index: 10;
 }
 
 /* leyout footer  */
