@@ -23,9 +23,55 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+.aligh-right {
+    width: 90%;
+    position: absolute;
+    right: 0;
+    top: 40px;
+} 
+
+.aligh-left {
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
 
 li {
     list-style: none;
+}
+
+section .img, section .text {
+    border: 1px solid black;
+    margin-top: 50px;
+    color: #333;
+}
+
+section .img {
+    width: 65%;
+}
+
+section .text {
+    width: 35%;
+}
+
+section .box-relative {
+    position: relative;
+}
+
+section .img img {
+    width: 100%;
+}
+
+section .text h2 {
+    font-size: 40px ;
+    margin-bottom: 10px;
+
+}
+
+section .text p {
+    font-size: 14px ;
+
 }
 
 
@@ -89,9 +135,8 @@ nav .menu li {
 
 /* leyout testo centrato  */
 .text-center {
-    width: 60%;
-    height: 200px;
-    border: 1px solid white;
+    width: 50%;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -99,21 +144,40 @@ nav .menu li {
 
 }
 
+.text-center h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+.text-center p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
 
+.botton {
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.dowload {
+    background-color: white;
+    color: black;
+}
+
+.open-web {
+    background-color: black;
+    color: white;
+}
+
+.dowload span {
+    font-size: 14px;
+}
 
 /* leyout flot main  */
-
-section div {
-    border: 1px solid black;
-    height: 400px;
-}
-
-section .img {
-    width: 65%;
-}
-
-section .text {
-    width: 35%;
-
-}
