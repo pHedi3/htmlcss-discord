@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* utility class */
 .clearfix::after  {
     content: "";
@@ -20,6 +24,10 @@
     margin: 0 auto;
 }
 
+li {
+    list-style: none;
+}
+
 
 
 /* end utility class */
@@ -33,18 +41,51 @@
     position: relative;
 }
 
-.logo, .menu, .login {
-    border: 1px solid white;
+/* leyout nav  */
+nav {
+    padding-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+ul {
+    line-height: 34px;
+}
+
+
+nav .logo, nav .login {
+    width: 25%;
     height: 34px;
 }
 
-.logo, .login {
-    width: 25%;
+nav .login {
+    text-align: right;
 }
 
-.menu{
-    width: 50%;
+nav .login a {
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: white;
 }
+
+nav .menu {
+    width: 50%;
+    height: 34px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav .menu li {
+    margin: 0 10px;
+}
+
 
 /* leyout testo centrato  */
 .text-center {
@@ -57,6 +98,8 @@
     transform: translate(-50%,-50%);
 
 }
+
+
 
 
 /* leyout flot main  */
