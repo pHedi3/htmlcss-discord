@@ -305,9 +305,10 @@ footer li {
 }
 
 .opacity {
+
     opacity: 0.1;
     height: 90px;
-}
+} 
 
 
 .wave, .wave-2 {
